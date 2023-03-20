@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-Regular.ttf);
+}
+body {
+    background-image: url(cover.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+}
+.main-text-div {
+    width: 600px;
+    height: 418px;
+    margin-top: 204.5px;
+}
+.mtitle {
+    font-size: 58px;
+    line-height: 113%;
+    Letter-spacing: 0.2px;
+    Font-weight: bolder;
+    color: #252B42;
+    font-family: Montserrat;
+}
+.mtext{
+    margin-top: 35px;
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    color: #737373;
+}
+.buttons {
+    display: flex;
+}
+.button1 {
+    margin-top: 45px;
+    width: 185px;
+    border-radius: 37px;
+    height: 48px;
+    border: none;
+    background-color: #00A0C1;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: Montserrat;
+}
+.button2 {
+    margin-top: 45px;
+    margin-left: 10px;
+    width: 154px;
+    height: 48px;
+    border: 1px solid #00A0C1;
+    border-radius: 37px;
+    color: #00A0C1;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: Montserrat;
+}
+.form-div {
+    width: 328px;
+    height: 619px;
+    background-color: #FFFFFF;
+    margin-top: 104px;
+    margin-left: 120px;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+.title-form {
+    text-align: center;
+}
+form{
+    width: 248px;
+    height: 369px;
+}
+label {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #252B42;
+    margin-left: 40px;
+}
+.nameld{
+    margin-top: 40px;
+}
+.emailld{
+    margin-top: 12px;
+}
+.depld{
+    margin-top: 12px;
+}
+.timeld{
+    margin-top: 5px;
+}
+.name-input, .email-input {
+    width: 245px;
+    height: 50px;
+    background-color: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    margin-left: 42.5px;
+    margin-top: 10px;
+    padding-left: 21px;
+}
+.book-appointment-button{
+    width: 248px;
+    height: 58px;
+    background-color: #FFA62B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    line-height: 28px;
+    width: 700;
+    font-family: Montserrat;
+    margin-top: 40px;
+    margin-left: 40px;
+    letter-spacing: 0.2px;
+}
+::placeholder {
+    color: #737373;
+    font-size:14px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Montserrat;
+    letter-spacing: 0.2px;
+}
+select {
+    width: 248px;
+    height: 50px;
+    background-color: #F9F9F9;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    margin-left: 39.5px;
+    margin-top: 12px;
+    padding-left: 18px;
+    padding-right: 20px;
+}
+option {
+    color: #737373;
+    font-size:14px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Montserrat;
+    letter-spacing: 0.2px;
+}
+select:invalid{
+    color: #737373;
+    font-size:14px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Montserrat;
+    letter-spacing: 0.2px;
+}
